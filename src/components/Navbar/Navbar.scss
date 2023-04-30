@@ -1,0 +1,37 @@
+.nav-bar {
+  text-align: center;
+
+  a {
+    font-weight: 500;
+    font-size: 20px !important;
+    text-decoration: none;
+    margin-left: 40px;
+    padding: 10px 0;
+  }
+
+  .nav-heading {
+    a {
+      font-weight: 600;
+      color: #e3e3e3;
+    }
+    a:hover {
+      color: #ffffff;
+    }
+  }
+
+  .nav-heading:hover {
+    cursor: pointer;
+  }
+
+  .active {
+    color: #ffffff;
+  }
+
+  .logo {
+    width: 60px;
+  }
+}
+
+.logout-icon {
+  color: #cd204f !important;
+}
